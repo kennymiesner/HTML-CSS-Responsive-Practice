@@ -283,4 +283,25 @@ min-width scales up - Mobile First
     .six {
         order: 6;
     }
+    #contact {
+        flex-direction: column;
+    }
+    .bottom {
+        text-align: center;
+    }
+    .left, .right {
+        width: 100%;
+    }
+    #contact h2 {
+        order: 0;
+    }
+    .left {
+        order: 2;
+    }
+    .right {
+        order: 1;
+    }
+    .bottom {
+        order: 3;
+    }
 }
