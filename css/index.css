@@ -80,8 +80,60 @@ h3 {
 }
 button {
     background: #266035;
+    padding: 3% 4%;
+    font-size: 1.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fbfffb;
 }
 
+/* Header Section */
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, .8);
+}
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 70%;
+}
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+/* Top Section */
 
+#top {
+    height: 90vh;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#top button {
+    background: #fbfffb;
+    border: 2px solid #266035;
+    color: #266035;
+    margin-top: 5%;
+    transition: .2s;
+}
+#top button:hover {
+    color: #fbfffb;
+    background: #266035;
+}
